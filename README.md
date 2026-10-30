@@ -11,6 +11,8 @@ A practical project demonstrating Markdown formatting, GitHub repository managem
 - Task lists
 - GitHub Wiki documentation
 - Code of Conduct
+- Organized repository structure
+- Meaningful commit history
 
 ## Installation
 
@@ -46,12 +48,41 @@ print("Hello, GitHub!")
 
 - [x] Create GitHub repository
 - [x] Create README.md
-- [ ] Create CODE_OF_CONDUCT.md
-- [ ] Create GitHub Wiki pages
+- [x] Create CODE_OF_CONDUCT.md
+- [x] Create GitHub Wiki pages
+- [x] Create documentation files
+- [x] Organize repository folders
+
+## Repository Structure
+
+```text
+EL-Markdown-Wiki-Practical/
+│
+├── docs/
+│   ├── index.md
+│   ├── usage.md
+│   └── faq.md
+│
+├── src/
+│   └── README.md
+│
+├── tests/
+│   └── README.md
+│
+├── assets/
+│   └── README.md
+│
+├── README.md
+└── CODE_OF_CONDUCT.md
+```
 
 ## Contributing
 
-Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before contributing.
+Contributions are welcome. Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before contributing.
+
+## Commit History
+
+The repository uses meaningful commit messages to track changes and maintain version history.
 
 ## Author
 
